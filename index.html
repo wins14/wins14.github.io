@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>孔明的资源库 - 截取世界无限的资源</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+            color: #1e88e5;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            margin-top: 40px;
+            color: #333;
+            text-align: left;
+            padding-left: 4vw;
+        }
+
+        .content {
+            margin-left: 4vw;
+            margin-right: 4vw;
+        }
+
+        .content span {
+            display: inline-block;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #444;
+        }
+
+        .content a {
+            display: inline-block;
+            margin-left: 10px;
+            font-size: 1.1rem;
+            color: #1e88e5;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .content a:hover {
+            color: #005cbf;
+        }
+
+        .content a.button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #1e88e5;
+            color: white;
+            border-radius: 5px;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .content a.button:hover {
+            background-color: #005cbf;
+        }
+
+        .note {
+            color: #868686;
+            font-size: 0.9rem;
+            margin-left: 10px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .section-title {
+                font-size: 1.3rem;
+            }
+
+            .content {
+                margin-left: 2vw;
+                margin-right: 2vw;
+            }
+
+            .content span, .content a {
+                font-size: 1rem;
+            }
+        }
+        #Q-el{color: #868686;font-size: 70%;}
+        .zuozhe{background-color: rgba(83, 163, 255, 0.13);width:100%;border-radius: 15px;}
+    </style>
+</head>
+<body>
+
+    <h1>孔明的资源库</h1>
+
+    <div class="content">
+        <h2 class="section-title">VPN</h2>
+        <span>点击下载</span><a href="https://xddx.cc" class="button">加速器</a><br>
+
+        <h2 class="section-title">图形化编程</h2>
+        <span>点击进入</span><a href="https://scratch.mit.edu" target="_blank">scratch官网</a><span class="note">(需VPN)</span><br>
+        <span>点击下载</span><a href="https://desktop.turbowarp.org" target="_blank">scratch加强版Turbowarp</a><br>
+        <span>点击下载</span><a href="https://filehippo.com/zh/download_mit-scratch/post_download/" target="_blank">原版scratch</a><br>
+        <span>点击体验</span><a href="https://www.ccw.site/gandi/" target="_blank">仅次于Turbowarp的编辑器Gandi</a><br>
+
+        <h2 class="section-title">云盘</h2>
+        <span>点击观看</span><a href="123.html" target="_blank">123云盘破解教程</a><br>
+        <div style="text-align: center;" class="zuozhe">
+        <h1 style="color: #333;">作者</h2>
+        <p > - 本站由诸葛孔明提供 所有内容均转载 侵权可删 - </p>
+        <span>作者QQ<span id="Q-el">[邮箱]</span>:<a href="#" id="Q" title="点击复制">3213910856 <span id="Q-el">qq.com</span></a></span><br>
+        <span>作者邮箱(新浪): <a href="#" id="sina">mnbvcxz143889@sina.com</a></span>
+            </div>
+            <script>
+                // 复制指定文本的函数
+                function copyToClipboard(text) {
+                  var tempInput = document.createElement('input');
+                  tempInput.value = text;
+                  document.body.appendChild(tempInput);
+                  tempInput.select();
+                  document.execCommand('copy');
+                  document.body.removeChild(tempInput);
+                  alert('\n复制成功：' + text);
+                }
+              
+                // 为 id 为 'Q' 的链接添加点击事件
+                document.getElementById('Q').addEventListener('click', function(event) {
+                  event.preventDefault(); // 阻止默认行为
+                  copyToClipboard('3213910856'); // 复制的内容
+                });
+              
+                // 为 id 为 'sina' 的链接添加点击事件
+                document.getElementById('sina').addEventListener('click', function(event) {
+                  event.preventDefault(); // 阻止默认行为
+                  copyToClipboard('mnbvcxz143889@sina.com'); // 复制的内容
+                });
+              </script>
+              
+              
+</body>
+</html>
